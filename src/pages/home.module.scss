@@ -1,1 +1,41 @@
-// TODO
+.posts {
+  .post {
+    margin-top: 4rem;
+    display: block;
+
+    strong {
+      line-height: 2.125rem;
+      margin-bottom: 0.5rem;
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: var(--heading);
+    }
+
+    p {
+      margin-bottom: 1.5rem;
+      font-size: 1.125rem;
+      line-height: 1.375rem;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+
+      li {
+        margin-right: 1.5rem;
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+      }
+    }
+  }
+
+  .button {
+    color: var(--highlight);
+    margin-top: 4rem;
+    background: none;
+    border: none;
+    font-weight: 600;
+    font-size: 1.125rem;
+  }
+}
